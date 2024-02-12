@@ -19,6 +19,7 @@ Here is your multiplication table:
 
 Functions to use: int(), input(), print(), str(), str.rjust(), str.ljust()
 Operators: <=, +=
+Structure to use: while
 '''
 def main():
 
