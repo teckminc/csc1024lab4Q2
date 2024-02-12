@@ -12,7 +12,7 @@ def test_case1(monkeypatch, capsys):
 
 def test_case2(monkeypatch, capsys):
   with open(f"lab4q2.py") as tf:
-    head = [next(tf) for _ in range(22)]
+    head = [next(tf) for _ in range(23)]
     s = tf.read()
     assert(s.find("while") != -1 )
 
